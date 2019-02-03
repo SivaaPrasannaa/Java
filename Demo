@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Table</title>
+		<link rel="stylesheet" href="mysty.css">
+		<style type="text/css">
+		
+		</style>
+	</head>
+	<body>
+	<hr/>
+	<h1 align='center' style="background-color: #1409a3;color:white;font-family: cursive;padding: 10px;">
+		
+			NIIT SIGNUP
+		</h1>
+	<hr/>
+	<div class="frm">
+		<form>
+		<fieldset>
+		<legend>NIIT Registeration</legend>
+			<table cellpadding='10' align='center'>
+				<tr>
+					<td>Enter Name </td>
+					<td><input type='text' class="inp"></td>
+				</tr>
+				<tr>
+					<td>Enter password</td>
+					<td><input type='password' class="inp"></td>
+				</tr>
+				<tr>
+					<td>Enter Email</td>
+					<td><input type='email' class="inp"></td>
+				</tr>
+				<tr>
+					<td>Enter DOB</td>
+					<td><input type='date' class="inp"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<label><input type="radio" value="Male" name="gen">Male</label><br/>
+						<label><input type="radio" value="Female" name="gen" >Female</label> 
+					</td>
+				</tr>
+				<tr>
+					<td>Languages</td>
+					<td>
+						<label><input type="checkbox" value="Tamil" name="lan">Tamil</label><br/>
+						<label><input type="checkbox" value="Hindi" name="lan" >Hindi</label> <br/>
+						<label><input type="checkbox" value="English" name="lan" >English</label><br/>
+						<label><input type="checkbox" value="Others" name="lan" >Others</label>
+					</td>
+				</tr>
+			
+				<tr>
+					<td>Address</td>
+					<td><textarea rows="5" cols="25" class="inp"></textarea></td>
+					
+				</tr>
+				<tr>
+					<td>Qualification</td>
+					<td>
+						<input list="q" class="inp"/>
+						<datalist id='q'>
+							<option>BE</option>
+							<option>BSC</option>
+							<option>BCA</option>
+							<option>BA</option>
+							<option>ME</option>
+							<option>MSC</option>
+							<option>MCA</option>
+							<option>MA</option>
+						</datalist>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Course</td>
+					<td>
+						<select class="inp">
+							<option value="">Select one</option>
+							<optgroup label="JAVA TECHNOLOGY">
+								<option value="Core java">Core java</option>
+								<option value="SERVLET">SERVLET</option>
+								<option value="JSP">JSP</option>
+								<option value="JSF">JSP</option>
+								
+							</optgroup>
+							<optgroup label=".NET TECHNOLOGY">
+								<option value="C#">C#</option>
+								<option value="ASP">ASP</option>
+								<option value="VB">VB</option>
+								<option value="Azur">Azur</option>
+								
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>State</td>
+					<td>
+						<select class="inp">
+							<option value="">Select state</option>
+							<option value="TamilNadu">TamilNadu</option>
+							<option value="Kerala">Kerala</option>
+							<option value="Karnadaka">Karnadaka</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Course</td>
+					<td>
+						<select multiple="multiple" class="inp">
+							<option value="">Select Many</option>
+							<optgroup label="JAVA TECHNOLOGY">
+								<option value="Core java">Core java</option>
+								<option value="SERVLET">SERVLET</option>
+								<option value="JSP">JSP</option>
+								<option value="JSF">JSP</option>
+								
+							</optgroup>
+							<optgroup label=".NET TECHNOLOGY">
+								<option value="C#">C#</option>
+								<option value="ASP">ASP</option>
+								<option value="VB">VB</option>
+								<option value="Azur">Azur</option>
+								
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan='2'>
+						<input type='submit' value='Register' class="bt" >
+						<input type='reset' value='Clear' class="bt">
+						<input type='button' value='click' class="bt">
+					</td>
+				</tr>
+			</table>
+			</fieldset>
+		</form>
+		</div>
+	</body>
+</html>
